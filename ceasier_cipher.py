@@ -1,10 +1,5 @@
 def caesar_encrypt(plaintext, shift):
-    """
-    Encrypts the given plaintext using the Caesar Cipher.
-    :param plaintext: The original message (string).
-    :param shift: The shift value (integer).
-    :return: The encrypted ciphertext (string).
-    """
+   
     encrypted_text = ""
     for char in plaintext:
         if char.isalpha():
